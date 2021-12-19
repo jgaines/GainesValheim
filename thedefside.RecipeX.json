@@ -1,0 +1,732 @@
+[
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Adze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorBronzeChest"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorBronzeLegs"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorIronChest"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorIronLegs"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorLeatherChest"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorLeatherLegs"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorPaddedCuirass"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorPaddedGreaves"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorRagsChest"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorRagsLegs"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorRootChest"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorRootLegs"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorTrollLeatherChest"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorTrollLeatherLegs"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorWolfChest"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ArmorWolfLegs"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowBronze"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowFire"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowFlint"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowFrost"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowIron"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowNeedle"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowObsidian"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowPoison"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowSilver"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_ArrowWood"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AtgeirBlackmetal"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AtgeirBronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AtgeirIron"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AxeBlackMetal"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AxeBronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AxeFlint"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AxeIron"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_AxeStone"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BarleyWineBase"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Battleaxe"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Battleaxe_Crystal"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Blacksoup"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BloodPudding"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BoarJerky"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BombOoze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Bow"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BowDraugrFang"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BowFineWood"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BowHuntsman"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Bread"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Bronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Bronze5"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BronzeNails"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CapeDeerHide"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CapeLinen"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CapeLox"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CapeOdin"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CapeTrollHide"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CapeWolf"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CarrotSoup"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Chisel"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Club"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Cultivator"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_DeerStew"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Eyescream"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_FishWraps"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Hammer"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetBronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetDrake"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetIron"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetLeather"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetOdin"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetPadded"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetRoot"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HelmetTrollLeather"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Hoe"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_IronNails"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_KnifeBlackmetal"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_KnifeButcher"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_KnifeChitin"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_KnifeCopper"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_KnifeFlint"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_KnifeSilver"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_LoxPie"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MaceBronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MaceIron"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MaceNeedle"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MaceSilver"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MeadBaseFrostResist"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MeadBaseHealthMedium"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MeadBaseHealthMinor"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MeadBasePoisonResist"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MeadBaseStaminaMedium"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MeadBaseStaminaMinor"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MeadBaseTasty"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_MinceMeatSauce"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Onionsoup"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_PickaxeAntler"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_PickaxeBronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_PickaxeIron"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_PickaxeStone"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_PotionHealthMinor"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_PotionStaminaMinor"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_QueensJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SadleLox"
+   },
+   {
+      "Enabled" : true,
+      "Multiplier" : 5,
+      "RecipeName" : "Recipe_Sausages"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SerpentStew"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SharpeningStone"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldBanded"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldBlackmetal"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldBlackmetalTower"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldBoneTower"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldBronzeBuckler"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldIronBuckler"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldIronSquare"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldIronTower"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldSerpentscale"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldSilver"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldWood"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShieldWoodTower"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_ShocklateSmoothie"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SledgeIron"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SledgeStagbreaker"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SpearBronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SpearChitin"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SpearElderbark"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SpearFlint"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SpearWolfFang"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SwordBlackmetal"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SwordBronze"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SwordFire"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SwordIron"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_SwordSilver"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Tankard"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_TankardOdin"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_Torch"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_TurnipStew"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_WolfJerky"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_WolfSkewer"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "recipe_spyglass"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : ""
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_RaspberryJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HoneyRaspberryJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_BlueberryJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HoneyBlueberryJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_CloudberryJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_HoneyCloudberryJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_KingsJam"
+   },
+   {
+      "Enabled" : false,
+      "Multiplier" : 1,
+      "RecipeName" : "Recipe_NordicJam"
+   }
+]

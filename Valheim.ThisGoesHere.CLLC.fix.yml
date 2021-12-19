@@ -1,0 +1,4 @@
+PrintComment: Removing some CLLC default config that cannot be overwritten in single player
+DeleteFile:
+- plugins/CreatureLevel/CreatureConfig.yml
+- plugins/CreatureLevel/ItemConfig.yml
