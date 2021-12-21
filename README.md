@@ -240,6 +240,12 @@ The original Kitchen-Sink mod.  This thing has **lots** of options and tweaks to
 
 Just an FYI if you're mucking about with mods: If you've turned on a lot sections in this mod and are getting weird behaviour from other mods, there's a good chance that some setting in valheim+ is breaking your other mod.  Like turning on the [Inventory] section can wreak havoc with any other mod that extends ANY inventory space.  Even turning off individual settings within the [Inventory] section won't fix the issue, you have to turn off the whole section.
 
+### Valheim Recycle
+
+https://www.nexusmods.com/valheim/mods/425
+
+Lets you recycle most things at the appropriate crafting station.
+
 
 ## Building and Decorations
 
