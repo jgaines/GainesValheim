@@ -55,6 +55,12 @@ https://www.nexusmods.com/valheim/mods/1301
 
 Adds a bunch of new arrows including bone ones (Use for bones beyond the stone age!).  Has arrows with blunt attack (for crystal golems in mountains).  Also has heavy arrows made from core wood for higher level mobs.  For example, it took me 50 heavy fire arrows to take down a 3 star regenerating Fuling Brute.  Normal arrows could barely keep up with his regen, and my bow would have probably broken before I got him down.
 
+### Better Stamina
+
+https://www.nexusmods.com/valheim/mods/153
+
+Tweaks stamina use, regen, etc.
+
 ### Creature Level and Loot Control aka CLLC
 
 https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/
