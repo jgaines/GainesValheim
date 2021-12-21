@@ -240,7 +240,7 @@ The original Kitchen-Sink mod.  This thing has **lots** of options and tweaks to
 
 Just an FYI if you're mucking about with mods: If you've turned on a lot sections in this mod and are getting weird behaviour from other mods, there's a good chance that some setting in valheim+ is breaking your other mod.  Like turning on the [Inventory] section can wreak havoc with any other mod that extends ANY inventory space.  Even turning off individual settings within the [Inventory] section won't fix the issue, you have to turn off the whole section.
 
-### Valheim Recycle
+### Valheim Recycle (client)
 
 https://www.nexusmods.com/valheim/mods/425
 
@@ -310,6 +310,13 @@ Heh, be really really sure about wanting one before placing a Megalith.  They're
 https://www.nexusmods.com/valheim/mods/876
 
 Adds two seed totems, both of which sem-automate the farming process.  The basic totem plants in a circle around it, I've fixed the size to 3 radius so it only manages about 30-40 plants at a time.  The advanced totem manages plants in a rectangle behind it that is adjustable.
+
+### Useful Paths
+
+https://www.nexusmods.com/valheim/mods/438
+
+Players run, jog, and walk faster and use less stamina when traversing leveled ground, paths, paved roads, wood, stone, iron, or hardwood. The movement boost and stamina drain decrease values can also be configured.
+
 
 ## Offbeat/Fun
 
@@ -421,7 +428,7 @@ Allows whole ore/rock mining with a hotkey.
 
 ## Utility (client)
 
-### VNEI - Valheim Not Enough Items
+### VNEI - Valheim Not Enough Items (client)
 
 https://www.nexusmods.com/valheim/mods/1457
 
