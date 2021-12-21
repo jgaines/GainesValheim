@@ -1,7 +1,5 @@
 # Gaines Valheim Server Mods
 
-This is a work in progress, so don't freak out if you see some of my old solo settings (like some of the huge carry weights atainable).  I'll probably tone down some of the crazy carry weights when we go multi player.
-
 This repo contains all the config settings and this file which is a list of the mods and where to get them (most are from Nexus, but a few are only available on Thunderstore).
 
 Just an FYI, since I'm running linux and the server is also a linux machine, I end up having to manually download and install all this stuff by hand because there are no good plugin managers that handle both Nexus and Thuderstore and run on Linux.  Thunderstore has a linux mod manager, but it doesn't talk to Nexus.
@@ -14,23 +12,9 @@ Any mod marked (client) is a client-side only mod and is optional.  They don't n
 
 ### Carry Weight
 
-For carry weight, I'm thinking standard 300 and 150 for belt.  Backpacks add carry weight and slots but must be worn to get carry weight benefit.  Skills Give More Carry Weight can add up to 300 if you max out 15 skills (0.2 per skill point for 15 skills).  Also all items weigh 70% of original weights.
+For carry weight, I'm using standard 300 and 150 for belt.  Backpacks add carry weight and the later two add slots but must be worn to get carry weight benefit.  Skills Give More Carry Weight can add up to 300 if you max out 15 skills (0.2 per skill point for 15 skills).  Also all items weigh 70% of original weights.
 
-Heh, just tested out the above settings and I think even Sam will be happy with the results.  I move like a tortoise with bronze armor and backpack on (25% speed reduction, 35% with sword and buckler out).  Total carry capacity is less than with a cart, but a lot more managable over rough terrain (which Better Continents adds a fair bit of).
-
-### Carry Weight Details
-
-I'm still working on the backpack carry weight config.  There are a few ways to configure the backpack.
-
-1. Items in backpack get weight reduction whether backpack is worn or not.
-2. Backpack can be configured to just add carry weight when worn.
-3. You could combine both (though that seems funky).
-
-I'm sort of leaning towards making backpack add 200 for rustic and 300 carry weight for arctic when worn, and no weight reduction of items in backpack.  That way, you'll have to wear it and suffer the 15% speed reduction (configurable) to gain any carry weight bonus.  It also goes in cloak slot, and I've set it so rugged backpack has no frost resist, but there's an arctic version of the backpack, with frost/cold resist, which I think is silver/wolfskin to make.  Rustic is bronze/leather so is available early.
-
-The Creature Level and Loot Control ItemConfigs I grabbed from https://valheim.thunderstore.io/package/FixItFelix/CreatureLeveLAndLootControl_itemconfig/ and tweaked (by adding in foods and items from some of the mods I added), have 0.7 weight modifier on most items so almost everything weighs 70% of it's original weight.  It also doubles stack sizes of most materials and ammo (I think I got them all).  Finally, I normalized all prepared foods to 20 stack size.
-
-I'm also thinking of keeping the Skills Give More Carry Weight mod, but drastically reducing their contribution.  At 0.1 per skill point, a maxed out skill only adds 10 to carry weight (grand total of 150 if you max out all 15 skills that contribute).  My original super-cheaty/solo settings were between 0.5 and 2 per skill, resulting in Herculean carry weights over 1000 once you'd skilled a few skills up to the 50s.
+Heh, just tested out the above settings and I think even Sam will be happy with the results.  I move like a tortoise with bronze armor and backpack on (25% speed reduction, 35% with sword and buckler out).  Total carry capacity is less than with a cart, but a lot more managable over rough terrain.
 
 ## Framework/Lib Mods
 
@@ -81,6 +65,12 @@ I turned on Affixes and Infusions for normal mobs (not bosses, a 3 star Moder wa
 
 I also enabled creature sectors, which basically makes creatures ramp up in an area as you kill more creatures in that area.  I'm not sure I fully understand how this works, but I did manage to trigger it clearing a Fuling camp.  I enabled it for all zones (the 1-5 rings).  Good or bad news: It appears that kills by your pets don't count.  I was sort of hoping they did, so the area around my camp would become a crazy battle zone.
 
+### Forgotten Biomes
+
+https://www.nexusmods.com/valheim/mods/1128
+
+Adds already existing structures, plants, rocks and other formations of things to many biomes.  It definately makes the world feel less barren so far.  Doesn't really affect the difficulty much, but does make it harder to tell the difference between meadows and black forest.
+
 ### Terraheim - Weapons Tools and Armor
 
 https://www.nexusmods.com/valheim/mods/803
@@ -113,20 +103,6 @@ https://www.nexusmods.com/valheim/mods/1054
 
 Makes ladder climbing smoother, just like stairs.
 
-### Build Camera (client)
-
-https://www.nexusmods.com/valheim/mods/226
-
-Lets you float the camera view to eliminate the need for scaffolding and allowing you to build in cramped areas and from angles unobtainable without it.  Like snapping a post to the underside of another post under water under a bridge you're standing on.
-
-I know, Sam considers the challenge of building to be fun.  I personally find the ability to snap items to the underside of things to be way too convenient to not use this.
-
-### First Person View (client)
-
-https://www.nexusmods.com/valheim/mods/44
-
-I mostly use this to get close in when cooking.  It apparently has issues if you run around a lot in first person view.  Also the mod's files are confusingly named CameraMod.
-
 ### Cartography Skill and Spyglass
 
 https://www.nexusmods.com/valheim/mods/394
@@ -141,17 +117,11 @@ Hotkey cycle through your known forsaken powers.  I disabled the reset feature a
 
 Hoping there's a fix for this some day.  It is a bit broken.  So far, I've unlocked deer, tree and blob.  If I activate deer or tree, I can toggle between those two.  If I activate blob, the other two drop off and I'm just stuck with blob.  Appears to work again once I activated Modor, can cycle between all four now.
 
-### Clock (client)
+### Craft Build Smelt Cook Fuel Pull From Containers
 
-https://www.nexusmods.com/valheim/mods/85
+https://www.nexusmods.com/valheim/mods/40
 
-Using this in fuzzy mode gives a nice display in the form of Morning, Evening, Midnight, etc.  Just how you'd expect someone without a watch to describe time.
-
-### Configuration Manager (client)
-
-https://www.nexusmods.com/valheim/mods/740
-
-Adds an in-game config manager to most mods.  Just hit Esc to bring up menu (to free cursor) then F1 to bring up Config Manager.  Can also be accessed at main menu before starting a game.
+I opted to use this rather than the similar features from Valheim+ because this one has a feature that I really want: If you hold left ctrl and use the hammer to craft an item, it will instead pull the mats for that item into your inventory.  So for those things like portals, boats, carts that you might want to load up the mats for, this is the answer.
 
 ### Crafty Carts Remake
 
@@ -167,15 +137,11 @@ https://valheim.thunderstore.io/package/FixItFelix/CreatureLeveLAndLootControl_f
 
 Based on the description: Delete the default YAML provided inside the plugins folder to avoid misconfiguration in single player use.  I'm not sure if we'll need this.  But if we do, you'll need to make sure the paths specified in the config file it contains are correct for your installation of CLLC.  Also it requires the additional Thunder Store only mod This Goes Here (listed below).
 
-### Custom Audio (client)
+### Digitalroot Valheim Slope Combat Fix (client)
 
-### Custom Textures (client)
+https://www.nexusmods.com/valheim/mods/1658
 
-### Death Tweaks (client)
-
-https://www.nexusmods.com/valheim/mods/1068
-
-This is the mod I use to eliminate corpse runs.
+Make sure you get this one as there are others that don't work quite right.  Allows attacking up/down slopes.  Doesn't seem to bugger up bow aim like the original mod did.
 
 ### Extended Player Inventory
 
@@ -203,6 +169,18 @@ Gathering Skill makes late game gathering less tedious by giving greather yields
 
 I switched it from Linear to PartialRandom so that there's a benefit to the skill prior to maxing it out.  With the default of Linear and max of 2, you get no benefit until it's maxed.  Now if your skill is 25, it's a 25/75 chance of getting 1 or 2.
 
+### Golden Judes Equipment
+
+https://valheim.thunderstore.io/package/GoldenJude/Judes_Equipment/
+
+I decided to add this in because it offers a number of alternate armor sets, but mostly because I wanted the backpack, which is the tier 0 backpack in this modpack.  It simply adds 100 carry weight, goes in the cloak slot and adds no extra slots.  It's atainable before you get any metal as it only takes deer hide and leather scraps.  It only has a 5% speed reduction.
+
+### Golden Judes Blacksmith's Tools (client)
+
+https://valheim.thunderstore.io/package/GoldenJude/Blacksmiths_tools/
+
+This is a client-side mod to make the armors from Golden Judes Equipment look better.  If you don't install it, you may see body parts poking through if you wear armor from that mod.
+
 ### Handy Portals
 
 https://www.nexusmods.com/valheim/mods/471
@@ -211,20 +189,12 @@ Makes portals work a little more sanely (IMO).  Entering a portal brings up the 
 
 I used to use [AnyPortal](https://www.nexusmods.com/valheim/mods/170) in the past, but it's broken since H&H.  I found it a little easier since you could set a portal to a fixed location and leave it.  Changing it only when needed.
 
-### Inventory HUD (client)
+### Jotunn Backpacks
 
-https://www.nexusmods.com/valheim/mods/1089
+https://www.nexusmods.com/valheim/mods/1416
 
-Adds a little bag icon with slots used/total and weight used/total.
+Adds two backpacks, one made with bronze/deerhide and a second made with silver/wolfhide.  I've configured them so they add carry weight only when worn.  They both add extra slots and go in the cloak slot and slow you down by 15%.
 
-### Mass Farming (client)
-
-
-### Minimal Status Effect (client)
-
-https://www.nexusmods.com/valheim/mods/75?tab=bugs
-
-Shrinks the status effect list and puts it in a vertical list below the minimap. Position and size are customizable.
 
 ### Mount Up
 
@@ -348,6 +318,93 @@ Adds two airships to the game one honking big one and a wee scout ship.  Looks l
 https://www.nexusmods.com/valheim/mods/1136
 
 Crazy mod that adds a raft you can build on.  So you can effectively have a mobile base (though there are some glitches with beds and portals on a raft).
+
+
+## Optional (client)
+
+These are all optional client-side things that I run so you'll see configs for them.
+
+### Build Camera (client)
+
+https://www.nexusmods.com/valheim/mods/226
+
+Lets you float the camera view to eliminate the need for scaffolding and allowing you to build in cramped areas and from angles unobtainable without it.  Like snapping a post to the underside of another post under water under a bridge you're standing on.
+
+I know, Sam considers the challenge of building to be fun.  I personally find the ability to snap items to the underside of things to be way too convenient to not use this.
+
+### Clock (client)
+
+https://www.nexusmods.com/valheim/mods/85
+
+Using this in fuzzy mode gives a nice display in the form of Morning, Evening, Midnight, etc.  Just how you'd expect someone without a watch to describe time.
+
+### Configuration Manager (client)
+
+https://www.nexusmods.com/valheim/mods/740
+
+Adds an in-game config manager to most mods.  Just hit Esc to bring up menu (to free cursor) then F1 to bring up Config Manager.  Can also be accessed at main menu before starting a game.
+
+### Custom Audio (client)
+
+Lets you muck with audio in game.  After installing this, I installed [Realistic Animal Sounds](https://www.nexusmods.com/valheim/mods/574).  Might be why my tamed wolves bark, though not sure since I haven't run pure vanilla setup with latest game update.
+
+### Custom Textures (client)
+
+Lets you muck with textures in game.  It just alters the texture of whatever crap you load into it.  I loaded [Ivy's Texture Pack](https://www.nexusmods.com/valheim/mods/115) and [Woad Warrior Skin](https://www.nexusmods.com/valheim/mods/219) into it.  Ivy's makes a lot of things look way less crappy and the Woad one adds nice but not overwhelming tattoos.
+
+### Death Tweaks (client)
+
+https://www.nexusmods.com/valheim/mods/1068
+
+This is the mod I use to eliminate corpse runs.
+
+### First Person View (client)
+
+https://www.nexusmods.com/valheim/mods/44
+
+I mostly use this to get close in when cooking.  It apparently has issues if you run around a lot in first person view.  Also the mod's files are confusingly named CameraMod.
+
+### Improved Dverger Circlet (client)
+
+https://www.nexusmods.com/valheim/mods/79
+
+Makes Dverger light white and lets you adjust the beam.  Between this and Invis Helm below makes Dverger ciclet worth having.
+
+### Inventory HUD (client)
+
+https://www.nexusmods.com/valheim/mods/1089
+
+Adds a little bag icon with slots used/total and weight used/total.
+
+### Invis Helm (client)
+
+https://www.nexusmods.com/valheim/mods/192
+
+Lets you hide helmet but still have it on.  Also allows using Dverger while wearing helmet, put on dverger, then put on helmet and light remains.  I mapped it to F3 because I pretty much never toggle it (toggling it has seemed a little glitchy).
+
+### Mass Farming (client)
+
+https://www.nexusmods.com/valheim/mods/527
+
+Makes farming and harvesting easier.  IMO goes hand in hand with extended pickup range (from Valheim+).
+
+### Minimal Status Effect (client)
+
+https://www.nexusmods.com/valheim/mods/75?tab=bugs
+
+Shrinks the status effect list and puts it in a vertical list below the minimap. Position and size are customizable.
+
+### Recipe X (client)
+
+https://www.nexusmods.com/valheim/mods/1636
+
+Lets you add multiplied recipes for vanilla recipes, basically like the 15 bronze bars vs. the 3 bronze bars recipes.  I'm pretty sure this is client side only.
+
+### Valheim Veinmine (client)
+
+https://www.nexusmods.com/valheim/mods/556
+
+Allows whole ore/rock mining with a hotkey.
 
 
 ## Utility (client)

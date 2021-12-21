@@ -683,50 +683,5 @@
       "Enabled" : false,
       "Multiplier" : 1,
       "RecipeName" : "recipe_spyglass"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : ""
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_RaspberryJam"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_HoneyRaspberryJam"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_BlueberryJam"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_HoneyBlueberryJam"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_CloudberryJam"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_HoneyCloudberryJam"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_KingsJam"
-   },
-   {
-      "Enabled" : false,
-      "Multiplier" : 1,
-      "RecipeName" : "Recipe_NordicJam"
    }
 ]
