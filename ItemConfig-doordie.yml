@@ -182,18 +182,18 @@ groups:
     - Metal_DoOrDieMonsters
     - Ore_DoOrDieMonsters
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
   
-Weaponkits_DoOrDieMonsters:
-  # those are way to heavy imho
-  weight factor: 0.2
+# Weaponkits_DoOrDieMonsters:
+#   # those are way to heavy imho
+#   weight factor: 0.2
 
-Stackable_DoOrDieMonsters:
-  stack factor: 2
+# Stackable_DoOrDieMonsters:
+#   stack factor: 2
 
-NoTeleportable_DoOrDieMonsters:
-  teleportable: no
+# NoTeleportable_DoOrDieMonsters:
+#   teleportable: no
 
-NoLossOnDeath_DoOrDieMonsters:
-  loss: no
+# NoLossOnDeath_DoOrDieMonsters:
+#   loss: no

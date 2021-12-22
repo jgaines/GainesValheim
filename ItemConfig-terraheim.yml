@@ -212,11 +212,11 @@ groups:
   NoLossOnDeath_Terraheim:
     - Equipment_Terraheim
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-Stackable_Terraheim:
-  stack factor: 2
+# Stackable_Terraheim:
+#   stack factor: 2
 
-NoLossOnDeath_Terraheim:
-  loss: no
+# NoLossOnDeath_Terraheim:
+#   loss: no

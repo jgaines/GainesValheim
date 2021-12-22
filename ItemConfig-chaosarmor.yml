@@ -40,8 +40,8 @@ groups:
   NoLossOnDeath_ChaosArmor:
     - Equipment_ChaosArmor
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-NoLossOnDeath_ChaosArmor:
-  loss: no
+# NoLossOnDeath_ChaosArmor:
+#   loss: no

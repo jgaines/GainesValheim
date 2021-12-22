@@ -76,11 +76,11 @@ groups:
   NoLossOnDeath_Epic_Valheims_Additions_by_Huntard:
     - Equipment_Epic_Valheims_Additions_by_Huntard
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-Stackable_Epic_Valheims_Additions_by_Huntard:
-  stack factor: 2
+# Stackable_Epic_Valheims_Additions_by_Huntard:
+#   stack factor: 2
 
-NoLossOnDeath_Epic_Valheims_Additions_by_Huntard:
-  loss: no
+# NoLossOnDeath_Epic_Valheims_Additions_by_Huntard:
+#   loss: no

@@ -29,8 +29,8 @@ groups:
   NoLossOnDeath_HugosArmory:
     - TwoHandedWeapon_HugosArmory
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-NoLossOnDeath_HugosArmory:
-  loss: no
+# NoLossOnDeath_HugosArmory:
+#   loss: no

@@ -37,11 +37,11 @@ groups:
     - Equipment_EpicLoot
 
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-Stackables_EpicLoot:
-  stack factor: 5
+# Stackables_EpicLoot:
+#   stack factor: 5
 
-NoLossOnDeath_EpicLoot:
-  loss: no
+# NoLossOnDeath_EpicLoot:
+#   loss: no

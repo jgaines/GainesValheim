@@ -34,8 +34,8 @@ groups:
   NoLossOnDeath_SageRobes:
     - Equipment_SageRobes
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-NoLossOnDeath_SageRobes:
-  loss: no
+# NoLossOnDeath_SageRobes:
+#   loss: no

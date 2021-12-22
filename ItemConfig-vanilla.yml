@@ -398,17 +398,17 @@ groups:
     - CoreWood
     - ElderBark
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-PreparedConsumable:
-  stack: 20
+# PreparedConsumable:
+#   stack: 20
 
-Stackable:
-  stack factor: 2
+# Stackable:
+#   stack factor: 2
 
-NoTeleportable:
-  teleportable: no
+# NoTeleportable:
+#   teleportable: no
 
-NoLossOnDeath:
-  loss: no
+# NoLossOnDeath:
+#   loss: no

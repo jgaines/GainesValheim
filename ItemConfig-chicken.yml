@@ -14,8 +14,8 @@ groups:
     - Consumable_chicken
 
 
-all:
-  weight factor: 0.7
+# all:
+#   weight factor: 0.7
 
-NoLossOnDeath_chicken:
-  loss: no
+# NoLossOnDeath_chicken:
+#   loss: no
