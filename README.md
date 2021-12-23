@@ -20,25 +20,25 @@ Heh, just tested out the above settings and I think even Sam will be happy with 
 
 These mods don't do anything by themselves, but are framework/libs for other mods.
 
-### BepInEx
+### BepInEx 5.4.17.0
 
 https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/
 
 This is the framework that allows all the other mods to work.  I'm pretty sure any mod manager will be smart enough to install this correctly with the unstripped_corlib files and all.
 
-### Extended Item Data Framework
+### Extended Item Data Framework 1.0.5
 
 https://www.nexusmods.com/valheim/mods/281
 
 Needed by a few mods, not really sure what it does as I haven't bothered to read the readme file. :)
 
-### Hookgen Patcher
+### Hookgen Patcher 0.0.3
 
 https://www.nexusmods.com/valheim/mods/505
 
-Not really sure what this does, just that Terraheim needs it.
+Not really sure what this does, just that Terraheim needs it.  Also in the logs, I see `Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.0.0]`, which sort of looks like it comes from this mod, but the version on the download page is 0.0.3.
 
-### Jotuun (The Valheim Library)
+### Jotuun 2.4.5 (The Valheim Library)
 
 https://www.nexusmods.com/valheim/mods/1138
 
@@ -49,47 +49,48 @@ This is shared library that is the result of some really awesome collaboration b
 
 These are mods that alter the difficulty of the game.  Creature Level and Loot Control makes it harder, while Terraheim and Valheim Legends make us tougher, so in theory they'll balance out.  (Fingers crossed.)
 
-### Atos Arrows JVL
+### Atos Arrows JVL 1.0.0
 
 https://www.nexusmods.com/valheim/mods/1301
 
 Adds a bunch of new arrows including bone ones (Use for bones beyond the stone age!).  Has arrows with blunt attack (for crystal golems in mountains).  Also has heavy arrows made from core wood for higher level mobs.  For example, it took me 50 heavy fire arrows to take down a 3 star regenerating Fuling Brute.  Normal arrows could barely keep up with his regen, and my bow would have probably broken before I got him down.
 
-### Better Stamina
+### Better Stamina 1.2.0.0
 
 https://www.nexusmods.com/valheim/mods/153
 
 Tweaks stamina use, regen, etc.
 
-### Creature Level and Loot Control aka CLLC
+### Creature Level and Loot Control 4.4.5 aka CLLC or simply Creature Leavel
 
 https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/
 
 Super configurable mod that lets you tweak stars and other stats on mobs based on all sorts of criteria.  Default config isn't too bad as it just ups the stars chances the further from spawn you go.  (Though a 5 star Fuling Berserker could be scary.)  One other thing that it does is repopulate dungeons and camps so you can revisit them a few days (3 by default) later and they won't be empty.
 
-I turned on Affixes and Infusions for normal mobs (not bosses, a 3 star Moder was enough without her being regenerationg too).
+I turned on Affixes and Infusions for normal mobs (not bosses, a 3 star Moder was enough without her being regenerating too).
 
 I also enabled creature sectors, which basically makes creatures ramp up in an area as you kill more creatures in that area.  I'm not sure I fully understand how this works, but I did manage to trigger it clearing a Fuling camp.  I enabled it for all zones (the 1-5 rings).  Good or bad news: It appears that kills by your pets don't count.  I was sort of hoping they did, so the area around my camp would become a crazy battle zone.
 
-### Forgotten Biomes
+### Forgotten Biomes 0.0.15
 
 https://www.nexusmods.com/valheim/mods/1128
 
 Adds already existing structures, plants, rocks and other formations of things to many biomes.  It definately makes the world feel less barren so far.  Doesn't really affect the difficulty much, but does make it harder to tell the difference between meadows and black forest.
 
-### Terraheim - Weapons Tools and Armor
+### Terraheim - Weapons Tools and Armor 2.2.0
 
 https://www.nexusmods.com/valheim/mods/803
 
-This is a major overhaul of the armor system.  Every set can be used to end game through reforging with higher tier materials.  Each armor set has perks that favor a specific play style.  Also fills in a lot of the gaps in the weapons and tools (for example: blackmetal picks and actual flametal weapons).
+This is a major overhaul of the armor system.  Every set can be used to end game through reforging with higher tier materials.  Each armor set has perks that favor a specific play style.  Also fills in a lot of the gaps in the weapons and tools (for example: blackmetal picks and actual flametal weapons).  Log also shows a "TerraheimItems 2.1.0" mod being loaded, not sure why that version differs from main mod.
 
-### Valheim Legends
+### Valheim Legends 0.4.2
 
 Adds a class system with each class getting three special abilities and ocassionaly a passive.  Seems to work well with Terraheim as that makes armor more role specific.
 
+
 ## Quality of Life
 
-### Anti Slip Shoes (client)
+### Anti Slip Shoes 1.0.0 (client)
 
 https://valheim.thunderstore.io/package/nearbear/AntiSlipShoes/
 
@@ -97,25 +98,25 @@ Increases the slope angle (from 30 to 50) you can walk up without sliding.
 
 I'm pretty sure this is purely client side, I was using it with our unmodded server and it was functioning just fine.
 
-### Beasts of Burden
+### Beasts of Burden 1.0.3
 
 https://www.nexusmods.com/valheim/mods/545
 
 The main purpose of this is to allow attaching carts to boar, wolves and lox.  That part seems somewhat broken in that I was finding the animals would disconnect at the slightest restance like pulling a cart uphill.  The main reason I keep this loaded is that it lets me command boar and lox to follow which is way easier than pushing them around.
 
-### Better Ladders (client)
+### Better Ladders 0.2.0 (client)
 
 https://www.nexusmods.com/valheim/mods/1054
 
-Makes ladder climbing smoother, just like stairs.
+Makes ladder climbing smoother, just like stairs.  Shows up in logs as "kgladder".
 
-### Cartography Skill and Spyglass
+### Cartography Skill and Spyglass 2.1.0
 
 https://www.nexusmods.com/valheim/mods/394
 
 The more you explore the larger your mapping radius becomes, eventually you'll get past that point where you can see the shore, but your map isn't showing it.  Spyglass is fun too.
 
-### Change Forsaken Power (client)
+### Change Forsaken Power 0.0.3 (client)
 
 https://valheim.thunderstore.io/package/CakeBlood/Change_Forsaken_Power/
 
@@ -123,13 +124,13 @@ Hotkey cycle through your known forsaken powers.  I disabled the reset feature a
 
 Hoping there's a fix for this some day.  It is a bit broken.  So far, I've unlocked deer, tree and blob.  If I activate deer or tree, I can toggle between those two.  If I activate blob, the other two drop off and I'm just stuck with blob.  Appears to work again once I activated Modor, can cycle between all four now.
 
-### Craft Build Smelt Cook Fuel Pull From Containers
+### Craft Build Smelt Cook Fuel Pull From Containers 2.2.1
 
 https://www.nexusmods.com/valheim/mods/40
 
 I opted to use this rather than the similar features from Valheim+ because this one has a feature that I really want: If you hold left ctrl and use the hammer to craft an item, it will instead pull the mats for that item into your inventory.  So for those things like portals, boats, carts that you might want to load up the mats for, this is the answer.
 
-### Crafty Carts Remake
+### Crafty Carts Remake 2.1.0
 
 https://valheim.thunderstore.io/package/OdinPlus/CraftyCartsRemake/
 
@@ -143,96 +144,92 @@ https://valheim.thunderstore.io/package/FixItFelix/CreatureLeveLAndLootControl_f
 
 Based on the description: Delete the default YAML provided inside the plugins folder to avoid misconfiguration in single player use.  I'm not sure if we'll need this.  But if we do, you'll need to make sure the paths specified in the config file it contains are correct for your installation of CLLC.  Also it requires the additional Thunder Store only mod This Goes Here (listed below).
 
-### Digitalroot Valheim Slope Combat Fix (client)
+### Digitalroot Valheim Slope Combat Fix 2.0.0 (client)
 
 https://www.nexusmods.com/valheim/mods/1658
 
 Make sure you get this one as there are others that don't work quite right.  Allows attacking up/down slopes.  Doesn't seem to bugger up bow aim like the original mod did.
 
-### Extended Player Inventory
+### Extended Player Inventory 0.3.1
 
 https://www.nexusmods.com/valheim/mods/1356
 
 Larger inventory and extra slots for armor and 3 extra hotkeyed slots.  With all the extra build tools and food drops extra slots are really needed.
 
-### Faster Boats
+### Faster Boats 0.0.1
 
 https://www.nexusmods.com/valheim/mods/349
 
 Makes ships faster.  Probably going to need this to counter some of the hopped up serpents from Creature Level and Loot Control.  A Quick (from CLLC) sea serpent may not be able to be outrun even with this.
 
-### Floating Items
+### Floating Items 1.0.0
 
 https://www.nexusmods.com/valheim/mods/241
 
 Makes all drops float.  No more "Oh shit! There goes that loot into the deep water.".  I also considered a mod that lets you dive, but thinking that's more likely to break something and finding crap under water doesn't sound like fun.
 
-### Gathering Skill and Skill Injector
+### Gathering Skill 2.0.2 and Skill Injector 1.1.1
 
+https://www.nexusmods.com/valheim/mods/342
 https://www.nexusmods.com/valheim/mods/341
 
 Gathering Skill makes late game gathering less tedious by giving greather yields.  Needs Skill Injector.  I nerfed the heck out of this by dropping the max skill modifier from 4 to 2, so at max skill you get double drops not quadruple.  I also made the skilling up from 1 per pick to 0.1 per pick so you'll have to pick a lot to get the bonus.  Terraheim adds a belt that gives +1 extra on domesticated plants and +2 extra on wild plant so if you really want to collect a lot you have to wear the belt.
 
 I switched it from Linear to PartialRandom so that there's a benefit to the skill prior to maxing it out.  With the default of Linear and max of 2, you get no benefit until it's maxed.  Now if your skill is 25, it's a 25/75 chance of getting 1 or 2.
 
-### Golden Judes Equipment
+### Golden Judes Equipment 1.4.0
 
 https://valheim.thunderstore.io/package/GoldenJude/Judes_Equipment/
 
 I decided to add this in because it offers a number of alternate armor sets, but mostly because I wanted the backpack, which is the tier 0 backpack in this modpack.  It simply adds 100 carry weight, goes in the cloak slot and adds no extra slots.  It's atainable before you get any metal as it only takes deer hide and leather scraps.  It only has a 5% speed reduction.
 
-### Golden Judes Blacksmith's Tools (client)
+### Handy Portals 1.0.0.7
 
-https://valheim.thunderstore.io/package/GoldenJude/Blacksmiths_tools/
+https://disk.yandex.com/d/sL-KLbai_Cupig
 
-This is a client-side mod to make the armors from Golden Judes Equipment look better.  If you don't install it, you may see body parts poking through if you wear armor from that mod.
+Makes it so entering a portal brings up the map then you click on desired destination portal.  No need to have portal hubs anywhere.  Also auto map pins portals with a config setting (which I turned on because it also seems to disable the portal pin on map).
 
-### Handy Portals
-
-https://www.nexusmods.com/valheim/mods/471
-
-Makes portals work a little more sanely (IMO).  Entering a portal brings up the map then you click on desired destination portal.  No need to have portal hubs anywhere.  Also auto map pins portals with a config setting (which I turned on because it also seems to disable the portal pin on map).
+This has a Nexus page at https://www.nexusmods.com/valheim/mods/471, but based on a discussion thread there about some excessive log spam, which we were seeing, I've downloaded a patched version from the weird disk.yanex.com location above.  It appears to have gotten rid of the log spam.
 
 I used to use [AnyPortal](https://www.nexusmods.com/valheim/mods/170) in the past, but it's broken since H&H.  I found it a little easier since you could set a portal to a fixed location and leave it.  Changing it only when needed.
 
-### Jotunn Backpacks
+### Jotunn Backpacks 2.0.0
 
 https://www.nexusmods.com/valheim/mods/1416
 
 Adds two backpacks, one made with bronze/deerhide and a second made with silver/wolfhide.  I've configured them so they add carry weight only when worn.  They both add extra slots and go in the cloak slot and slow you down by 15%.
 
-
-### Mount Up
+### Mount Up 3.2.5
 
 https://www.nexusmods.com/valheim/mods/1091
 
 Ride boars and wolves.
 
-### PressurePlate for Doors
+### PressurePlate for Doors 0.6.0
 
 https://www.nexusmods.com/valheim/mods/498
 
 Basically works like player only pressure plates from Minecraft.  Comes in two ugly textures: wood and stone, that don't really match anything.  Author added a crystal one at my suggestion. :)
 
-### Teleport Wolves
+### Teleport Wolves 0.2.2
 
 https://www.nexusmods.com/valheim/mods/217
 
 This appears to also allow teleporting of boars and lox.  Moving livestock around without this is as we saw not very feasible.  Though smaller animals might fare better on ships than a lox.  ValheimRaft might be an alternate solution as you could build a pen on the raft to stick the animals in.  Though a raft doesn't solve the issue of getting animals out of trenches.  (Ringing your camp in a raised earth wall instead of a trench does though. ;)
 
-### This Goes Here
+### This Goes Here 1.2.0
 
 https://valheim.thunderstore.io/package/ASharpPen/This_Goes_Here/
 
 This is a weird little mod that allows some basic file operations to be encoded in config files.  It's purpose in this pack is to run the Creature Level and Loot Control Fix script to clean up some config files that get installed by CLLC into the plugins folder.
 
-### Triple Bronze JVL
+### Triple Bronze JVL 1.1.0
 
 https://www.nexusmods.com/valheim/mods/1463
 
 Makes bronze produce proper number of ingots based on number of ingots input.  This makes bronze easier to make which is good because the bronze armor is not actually a viable set with Terraheim (also bronze is used to reforge leather/trollhide in their progression to end-game).
 
-### Valheim Plus
+### Valheim Plus 0.9.9
 
 https://www.nexusmods.com/valheim/mods/4
 
@@ -240,7 +237,7 @@ The original Kitchen-Sink mod.  This thing has **lots** of options and tweaks to
 
 Just an FYI if you're mucking about with mods: If you've turned on a lot sections in this mod and are getting weird behaviour from other mods, there's a good chance that some setting in valheim+ is breaking your other mod.  Like turning on the [Inventory] section can wreak havoc with any other mod that extends ANY inventory space.  Even turning off individual settings within the [Inventory] section won't fix the issue, you have to turn off the whole section.
 
-### Valheim Recycle (client)
+### Valheim Recycle 2.0.0 (client)
 
 https://www.nexusmods.com/valheim/mods/425
 
@@ -249,55 +246,61 @@ Lets you recycle most things at the appropriate crafting station.
 
 ## Building and Decorations
 
-### Black Metal Build Pieces
+### Black Metal Build Pieces 0.0.3
 
 https://www.nexusmods.com/valheim/mods/1605
 
 Adds black metal versions of all the iron pieces including the support beams.  Really nice to have a use for all the black metal that piles up late game.
 
-### Build It
+### Build It 1.3.1
 
 https://www.nexusmods.com/valheim/mods/1385
 
 Has some really cool stuff and its own build hammer.  It has an outhouse and toilet seat, plus some nice alternative storage solutions.  (There's still a visual bug with rain/snow and their roofs, but they function properly, you just see the rain coming through.)
 
-### Clutter
+### Clutter 0.1.0
 
 https://www.nexusmods.com/valheim/mods/1350
 
 Lots of knick-knacks to decorate the home with custom "hammer" in the form of a bucket.  More of this sort of stuff is what I was expecting from H&H.
 
-### Moar Build IDs
+### Moar Build IDs 1.0.8
 
 https://valheim.thunderstore.io/package/OdinPlus/MoArBuIlDs/
 
 The whole goblin village can now be built you also can build the iron gate from the crypts now.  Some items are missing snap points.
 
-### More Gates
+### More Gates 1.0.10
 
 https://www.nexusmods.com/valheim/mods/1087
 
  Windows, doors, gates, a drawbridge and various other pieces.
 
-### OdinArchitect
+### OdinArchitect 0.1.3
 
 https://valheim.thunderstore.io/package/OdinPlus/OdinArchitect/
 
 More alternate build pieces and its own hammer.  Some functional ones like compost heap which turns neck tails/boar meat into fish bait, which can then be used in an auto fisher (turns fish bait into fish) and a bird house (turns fish bait into feathers).  To automate two annoying gathering processes.
 
-### Plant Everything
+### Pageable Build Hud 1.0.2
+
+https://www.nexusmods.com/valheim/mods/1516
+
+Adds a next/prev button to bottom of build pages.  Some of the build mods will eventually fill up some of the build pages, so while you won't need it to start, by black metal level, you'll need it.
+
+### Plant Everything 1.9.1
 
 https://www.nexusmods.com/valheim/mods/1042
 
 This is semi-functional in that it allows planting of most of the pickables as well as a number of purely decorative plants.
 
-### Plant It
+### Plant It 0.1.2
 
 https://www.nexusmods.com/valheim/mods/1251
 
 Adds a bunch of decorative plants and a build hammer that looks like a shovel.  Nexus link is a repost, original post is https://valheim.thunderstore.io/package/OdinPlus/PlantIt/
 
-### Rune Magic
+### Rune Magic 1.1.3
 
 https://www.nexusmods.com/valheim/mods/1359
 
@@ -305,13 +308,19 @@ A lot of the rune powers relate to building, including restore terrain, level te
 
 Heh, be really really sure about wanting one before placing a Megalith.  They're a bitch to tear down.
 
-### Seed Totem
+### Seed Totem 4.1.0
 
 https://www.nexusmods.com/valheim/mods/876
 
 Adds two seed totems, both of which sem-automate the farming process.  The basic totem plants in a circle around it, I've fixed the size to 3 radius so it only manages about 30-40 plants at a time.  The advanced totem manages plants in a rectangle behind it that is adjustable.
 
-### Useful Paths
+### Use Equipment in Water 0.2.1.0 (client)
+
+https://www.nexusmods.com/valheim/mods/121
+
+Allows you to use your Equipment while swimming in water.
+
+### Useful Paths 1.0.5.0
 
 https://www.nexusmods.com/valheim/mods/438
 
@@ -320,28 +329,22 @@ Players run, jog, and walk faster and use less stamina when traversing leveled g
 
 ## Offbeat/Fun
 
-### Hallowheim
+### Hallowheim 1.0.1
 
 https://www.nexusmods.com/valheim/mods/1602
 
 Adds a bunch of silly halloween themed items to game.
 
-### Steamheim Airships
+### Steamheim Airships 1.1.3
 
 https://www.nexusmods.com/valheim/mods/1322
 
 Adds two airships to the game one honking big one and a wee scout ship.  Looks like they can be individually enabled, so maybe just the wee one for shits and giggles.
 
-### ValheimRaft
-
-https://www.nexusmods.com/valheim/mods/1136
-
-Crazy mod that adds a raft you can build on.  So you can effectively have a mobile base (though there are some glitches with beds and portals on a raft).
-
 
 ## Optional (client)
 
-These are all optional client-side things that I run so you'll see configs for them.
+These are all optional client-side things that I run so you'll see configs for them.  I'm leaving off versions on these as they shouldn't matter, I usually update them in my client plugins whenever I see a new version.
 
 ### Build Camera (client)
 
@@ -377,11 +380,23 @@ https://www.nexusmods.com/valheim/mods/1068
 
 This is the mod I use to eliminate corpse runs.
 
+### Farm Grid (client)
+
+https://www.nexusmods.com/valheim/mods/449
+
+Helps lay out plants/trees in a properly spaced grid.  With Seed Totems, I mostly use this for laying out large tree farms.
+
 ### First Person View (client)
 
 https://www.nexusmods.com/valheim/mods/44
 
 I mostly use this to get close in when cooking.  It apparently has issues if you run around a lot in first person view.  Also the mod's files are confusingly named CameraMod.
+
+### Golden Judes Blacksmith's Tools (client)
+
+https://valheim.thunderstore.io/package/GoldenJude/Blacksmiths_tools/
+
+This is a client-side mod to make the armors from Golden Judes Equipment look better.  If you don't install it, you may see body parts poking through if you wear armor from that mod.
 
 ### Improved Dverger Circlet (client)
 
@@ -401,6 +416,12 @@ https://www.nexusmods.com/valheim/mods/192
 
 Lets you hide helmet but still have it on.  Also allows using Dverger while wearing helmet, put on dverger, then put on helmet and light remains.  I mapped it to F3 because I pretty much never toggle it (toggling it has seemed a little glitchy).
 
+### Map Teleport (client)
+
+https://www.nexusmods.com/valheim/mods/251
+
+Allows you to teleport by shift-clicking on the map.
+
 ### Mass Farming (client)
 
 https://www.nexusmods.com/valheim/mods/527
@@ -413,11 +434,71 @@ https://www.nexusmods.com/valheim/mods/75?tab=bugs
 
 Shrinks the status effect list and puts it in a vertical list below the minimap. Position and size are customizable.
 
+### Movable Inventory Windows (client)
+
+https://www.nexusmods.com/valheim/mods/577
+
+You'll probalby want this to move chest/container window down below backpack window.
+
+### Nexus Update Check
+
+https://www.nexusmods.com/valheim/mods/102
+
+Alerts you to updated mods on Nexus.  Unfortunately there's nothing like this for ThunderStore.  It should be safe to update any client side mods, but anything server side will probably have to be a coordinated upgrade along with the server.
+
+### Overhead Axe Swing (client)
+
+https://www.nexusmods.com/valheim/mods/465
+
+Adds a secondary attack to all the basic axes that swings like a pickaxe.  With the slope fix, it seems you can do without this, but I still run it because I like the animation.
+
+### Quick Stack (client)
+
+https://www.nexusmods.com/valheim/mods/29
+
+Press a configured key (` by default) to quickly stack items from your inventory into a currently opened or nearby containers.
+
 ### Recipe X (client)
 
 https://www.nexusmods.com/valheim/mods/1636
 
 Lets you add multiplied recipes for vanilla recipes, basically like the 15 bronze bars vs. the 3 bronze bars recipes.  I'm pretty sure this is client side only.
+
+### Show Container Contents (client)
+
+https://www.nexusmods.com/valheim/mods/829
+
+Shows container contents when you hover over them.
+
+### Simple Sort (client)
+
+https://www.nexusmods.com/valheim/mods/584
+
+As the name implies, sorts container contents when you access a chest.
+
+### Skills Give More Carry Weight (client)
+
+https://www.nexusmods.com/valheim/mods/462
+
+Configured to allow 15 skills to add 0.2 per skill point increase to carry weight.  Skills that affect carry weight: Axes, Blocking, Bows, Clubs, Jump, Knives, Pickaxes, Polearms, Run, Sneak, Spears, Swim, Swords, Unarmed, and WoodCutting.  Total if you max out all those  skills is an extra 300 carry weight.
+
+### Split Stack Text Input (client)
+
+https://valheim.thunderstore.io/package/DeekyJay/SplitStackTextInput
+
+Configured so that right clicking on the stack split scrollbar opens a text input window where you can type in a number.
+
+### Take Me Home (client)
+
+https://www.nexusmods.com/valheim/mods/187
+
+Adds two teleport hotkeys.  One takes you to your spawn point the other returns you to where you where last time you returned to spawn.  Quite cheaty, allows teleporting with anything.
+
+### Valheim Configuration Manager (client)
+
+https://www.nexusmods.com/valheim/mods/740
+
+I'm pretty sure this is editing your local configs.  Be somewhat careful about what you edit, as editing some configs like certain sections of Valheim Plus configs can make it so you can't log in.
 
 ### Valheim Veinmine (client)
 
@@ -426,61 +507,3 @@ https://www.nexusmods.com/valheim/mods/556
 Allows whole ore/rock mining with a hotkey.
 
 
-## Utility (client)
-
-### VNEI - Valheim Not Enough Items (client)
-
-https://www.nexusmods.com/valheim/mods/1457
-
-Basically NEI/JEI from the Minecraft world for Valheim.  It lets you see all possible items and recipes.  Lets you dump out item info in various formats to make configuring things like Creature Level and Loot Control eaiser.  I used it to mess about with stack sizes as I wanted to make all food stackable in stacks of 20 (drove me nuts to have some 10 max and some 20 max food items).
-
-
-## Rejected
-
-These are all mods I tried out and rejected for the reasons I've explained below.
-
-### Basement
-
-https://www.nexusmods.com/valheim/mods/1118
-
-While the concept is cool(ish), the bugs are just too scary as people talk of vanishing basements.  It also never appeared in my contruction tab even when I had the required materials.  It may be that it needs to be updated for H&H.
-
-### Better Archery
-
-https://www.nexusmods.com/valheim/mods/348
-
-While lauded as the ultimate fix to bows and arrows in the game, I found the changes to bow trajectory to be non-intuitive.  I found myself having to shoot at targets feet if they were far off, their crotches when close and missing a lot when firing down on targets.  Also the arrow retrieval system only works for vanilla arrows, no way to add custom arrows and the quiver doesn't work with extended inventory (and isn't really needed if you use the 3 quick slots for arrows as I do).
-
-### Better Continets
-
-https://www.nexusmods.com/valheim/mods/446
-
-Alters world generation.  Using the default settings, I got much rougher terrain in places with a lot more steep inclines (which anti slip shoes helps with).  Not really sure making the world more hilly is "better".  It also apparently makes the streams better, but not sure I see that.  The pack is a little laggy at least in local server mode, I'm wondering if pulling this out might help with that.
-
-### Candles Lanterns and Beeswax
-
-https://valheim.thunderstore.io/package/RobinHood/Candles_LanternsANDbeeswaxx_02050/
-
-This is a fixed version of the one available on Nexus.
-
-Adds a whole new material beeswax which is a PITA to make in quantity.  Also the candles and such seemed to keep going out.  On top of that the other Building and Decoration mods include a lot of new lights and candles and such.
-
-### Keezy's Better Wolves
-
-https://www.nexusmods.com/valheim/mods/244
-
-Not really needed any more with the latest patch to silence tamed wolf howls.  The other feature of making tamed wolves take less damage could be provided by CLLC if desired.
-
-### MofoMojo's Drop Item Using Camera Direction
-
-https://www.nexusmods.com/valheim/mods/1101
-
-While the concept was appealing to me, being able to drop items the way your character is looking rather than physically facing, it's broken.  With it installed I couldn't drop anything (so it totally failed in it's one simple task).
-
-### Slope Combat Fix
-
-https://www.nexusmods.com/valheim/mods/727
-
-Uncaps the Y angle of your attacks so you can now look straight down or up and hit things if they are in range. This should've been in the game right off the bat.  (DLL is named HitboxFix.dll).
-
-Seemed to screw too much with firing arrows down onto things.  I shot hundreds of arrows into the ground missing targets below me.
