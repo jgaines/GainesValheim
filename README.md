@@ -85,6 +85,8 @@ This is a major overhaul of the armor system.  Every set can be used to end game
 
 ### Valheim Legends 0.4.2
 
+https://www.nexusmods.com/valheim/mods/796
+
 Adds a class system with each class getting three special abilities and ocassionaly a passive.  Seems to work well with Terraheim as that makes armor more role specific.
 
 
@@ -109,6 +111,12 @@ The main purpose of this is to allow attaching carts to boar, wolves and lox.  T
 https://www.nexusmods.com/valheim/mods/1054
 
 Makes ladder climbing smoother, just like stairs.  Shows up in logs as "kgladder".
+
+### Better Networking 1.2.2
+
+https://www.nexusmods.com/valheim/mods/1570
+
+If you've been experiencing lag or desync when playing with your friends, this is the solution!
 
 ### Cartography Skill and Spyglass 2.1.0
 
