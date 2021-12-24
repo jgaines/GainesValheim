@@ -39,6 +39,12 @@ https://www.nexusmods.com/valheim/mods/446
 
 Alters world generation.  Using the default settings, I got much rougher terrain in places with a lot more steep inclines (which anti slip shoes helps with).  Not really sure making the world more hilly is "better".  It also apparently makes the streams better, but not sure I see that.  The pack is a little laggy at least in local server mode, I'm wondering if pulling this out might help with that.
 
+### Better Networking 1.2.2
+
+https://www.nexusmods.com/valheim/mods/1570
+
+If you've been experiencing lag or desync when playing with your friends, this is the solution!  NOPE!  Made all these things appear in abundance.
+
 ### Candles Lanterns and Beeswax
 
 https://valheim.thunderstore.io/package/RobinHood/Candles_LanternsANDbeeswaxx_02050/
